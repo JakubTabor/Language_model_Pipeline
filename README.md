@@ -13,3 +13,4 @@ Here I gonna use some cool technics to preprocess text in English and Spanish
 # It's not yet perfect but it catch some informations
 # Now to my blank pipeline I gonna add solo "ner" and put this same text as previous to process
 # I gonna put with names of persons and names of cities, the task of my model will be to extract exactly this informations from the text
+# So I load "small model in english", put text into model and create empty list for "proper nouns"  
