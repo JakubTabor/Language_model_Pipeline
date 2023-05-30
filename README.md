@@ -6,3 +6,4 @@ Here I gonna use some cool technics to preprocess text in English and Spanish
 # I gonna put a text into my nlp object and start for loop for every token in my object, it will print first the token, then description and then base word
 # Token is each word, then "pos" describe part of speech np. Verb, Num, Noun, Pron. "lemma" take word and change into base word np. eats into eat.
 # Now I gonna take another text with some useful words, I also start for loop for each word in my doc, printing first word, then label and it explanation
+# So I chave printed word, next it label np. Date, Gpe, Location, Money and finally explanation of my label np. "GPE | Countries, cities, states"
