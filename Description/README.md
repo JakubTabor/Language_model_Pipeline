@@ -16,7 +16,8 @@
 * So I have printed word, next it label **(np. Date, Gpe, Location, Money)** and finally explanation of my label **(np. GPE | Countries, cities, states)**
 * I can also print it in a good looking way using (displacy) from spacy
 * To do this i use function **(render on my doc and i choose style ent)**
-# It gonna mark the most important informations, make them visible and good describe "displacy.render(doc, style = "ent")"
+* It gonna mark the most important informations, make them visible
+* and good describe "displacy.render(doc, style = "ent")"
 # I can load also "trained small model in Spanish language" "es_core_news_sm", I change my text into spaninh version and start for loop on it
 # It's not yet perfect but it catch some informations
 # Now to my blank pipeline I gonna add solo "ner" and put this same text as previous to process
