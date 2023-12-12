@@ -12,7 +12,7 @@
 * lemma take word and change into base word np. eats into eat.
 
 # Next I gonna take another text with some useful words
-* i also start for loop for each word in my doc, printing first word, then label and it explanation
+* I also start for loop for each word in my doc, **(printing first word, then label and it explanation)**
 # So I chave printed word, next it label np. Date, Gpe, Location, Money and finally explanation of my label np. "GPE | Countries, cities, states"
 # I can also print it in a good looking way using "displacy" from spacy, I use function render on my "doc" and I choose "style ent"
 # It gonna mark the most important informations, make them visible and good describe "displacy.render(doc, style = "ent")"
