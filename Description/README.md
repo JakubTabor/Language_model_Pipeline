@@ -1,4 +1,4 @@
-[Example 1: Language model spacy](https://github.com/JakubTabor/Language_model_Pipeline/blob/main/Language_Processing_Pipeline_Spacy.ipynb)
+# [Example 1: Language model spacy](https://github.com/JakubTabor/Language_model_Pipeline/blob/main/Language_Processing_Pipeline_Spacy.ipynb)
 # Language_Processing_Pipeline_Spacy
 
 # In this example I gonna use some technics to preprocess text in English and Spanish
@@ -6,11 +6,13 @@
 * Then i load to my nlp object **(trained small model(with few thousand en. words))**
 * I check the tools of my model and see that my pipeline is **(full of useful tools)**
 
-# Next i gonna put a text into my nlp object and start (for loop for every token in my object)
+# Then i gonna put a text into my nlp object and start (for loop for every token in my object)
 * It will print first the token, then description and then base word
 * Token is each word, then **(pos describe part of speech)** np. Verb, Num, Noun, Pron
 * lemma take word and change into base word np. eats into eat.
-# Now I gonna take another text with some useful words, I also start for loop for each word in my doc, printing first word, then label and it explanation
+
+# Next I gonna take another text with some useful words
+* i also start for loop for each word in my doc, printing first word, then label and it explanation
 # So I chave printed word, next it label np. Date, Gpe, Location, Money and finally explanation of my label np. "GPE | Countries, cities, states"
 # I can also print it in a good looking way using "displacy" from spacy, I use function render on my "doc" and I choose "style ent"
 # It gonna mark the most important informations, make them visible and good describe "displacy.render(doc, style = "ent")"
