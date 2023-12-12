@@ -20,7 +20,7 @@
 * And nice describtion **(displacy.render(doc, style = "ent"))**
 
 # I can load also (trained small model in Spanish language), as (es_core_news_sm)
-* I change my text into spaninh version and start for loop on it
+* I change my text into spaninh version and start (for loop on it)
 # It's not yet perfect but it catch some informations
 # Now to my blank pipeline I gonna add solo "ner" and put this same text as previous to process
 # I gonna put with names of persons and names of cities, the task of my model will be to extract exactly this informations from the text
