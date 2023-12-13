@@ -30,7 +30,7 @@
 * So I load (small model in english), put text into model and create empty list for (proper nouns)  
 * Next I start for loop on my text, condition is simple
 * If part of speech is equal to (PROPN) this words will fill my list
-# I also print this words and number of them 
+* I also print this words and number of them 
 # I take another text with companies and create empty list for company names, then I start for loop on my text with condition that if word have label ORG
 # It will fill out my list and also print out the names of the companies and their numbers
 
