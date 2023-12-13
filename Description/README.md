@@ -34,5 +34,5 @@
 
 # I take another text with companies and create empty list for company names
 * Then I start for loop on my text with condition **(that if word have label ORG)**
-# It will fill out my list and also print out the names of the companies and their numbers
+* It will fill out my list and also print out the names of the companies and their numbers
 
