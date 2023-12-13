@@ -26,7 +26,7 @@
 
 # Then to my blank pipeline i gonna add solo (ner) and put this same text as previous to process
 * I gonna put with names of persons and names of cities
-*  the task of my model will be to extract exactly this informations from the text
+* The task of my model will be to extract exactly this informations from the text
 # So I load "small model in english", put text into model and create empty list for "proper nouns"  
 # Now I start for loop on my text, condition is simple, if part of speech is equal to "PROPN" this words will fill my list
 # I also print this words and number of them 
