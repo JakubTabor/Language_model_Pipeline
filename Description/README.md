@@ -8,6 +8,7 @@
 
 # Then i gonna put a text into my nlp object and start (for loop for every token in my object)
 ![](https://github.com/JakubTabor/Language_model_Pipeline/blob/main/Images/doc1.png)
+![](https://github.com/JakubTabor/Language_model_Pipeline/blob/main/Images/doc0.png)
 * It will print first the token, then description and then base word
 * Token is each word, then **(pos describe part of speech)** np. Verb, Num, Noun, Pron
 * lemma take word and change into base word np. eats into eat.
