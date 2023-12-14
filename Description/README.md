@@ -7,6 +7,7 @@
 * I check the tools of my model and see that my pipeline is **(full of useful tools)**
 
 # Then i gonna put a text into my nlp object and start (for loop for every token in my object)
+![](https://github.com/JakubTabor/Language_model_Pipeline/blob/main/Images/doc1.png)
 * It will print first the token, then description and then base word
 * Token is each word, then **(pos describe part of speech)** np. Verb, Num, Noun, Pron
 * lemma take word and change into base word np. eats into eat.
