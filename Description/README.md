@@ -27,6 +27,7 @@
 
 # I can load also (trained small model in Spanish language), as (es_core_news_sm)
 ![](https://github.com/JakubTabor/Language_model_Pipeline/blob/main/Images/doc_es.png)
+![](https://github.com/JakubTabor/Language_model_Pipeline/blob/main/Images/es_displacy.png)
 * I change my text into spaninh version and start (for loop on it)
 * It's not yet perfect but it catch some informations
 * Because it's small model trained on lesser number of words
