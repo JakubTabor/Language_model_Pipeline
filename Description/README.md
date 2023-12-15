@@ -34,6 +34,7 @@
 
 # Then to my blank pipeline i gonna add solo (ner) and put this same text as previous to process
 ![](https://github.com/JakubTabor/Language_model_Pipeline/blob/main/Images/text1.png)
+![](https://github.com/JakubTabor/Language_model_Pipeline/blob/main/Images/proper_nouns.png)
 * I gonna put with names of persons and names of cities
 * The task of my model will be to extract exactly this informations from the text
 * So I load (small model in english), put text into model and create empty list for (proper nouns)  
