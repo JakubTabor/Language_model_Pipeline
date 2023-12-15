@@ -16,6 +16,7 @@
 # Next I gonna take another text with some useful words
 * I also start for loop for each word in my doc, **(printing first word, then label and it explanation)**
 ![](https://github.com/JakubTabor/Language_model_Pipeline/blob/main/Images/doc2.png)
+![](https://github.com/JakubTabor/Language_model_Pipeline/blob/main/Images/doc_0.png)
 * So I have printed word, next it label **(np. Date, Gpe, Location, Money)** and finally explanation of my label **(np. GPE | Countries, cities, states)**
 * I can also print it in a good looking way using (displacy) from spacy
 * To do this i use function **(render on my doc and i choose style ent)**
