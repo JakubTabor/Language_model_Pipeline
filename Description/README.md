@@ -18,7 +18,9 @@
 ![](https://github.com/JakubTabor/Language_model_Pipeline/blob/main/Images/doc2.png)
 ![](https://github.com/JakubTabor/Language_model_Pipeline/blob/main/Images/doc_0.png)
 * So I have printed word, next it label **(np. Date, Gpe, Location, Money)** and finally explanation of my label **(np. GPE | Countries, cities, states)**
-* I can also print it in a good looking way using (displacy) from spacy
+
+# I can also print it in a good looking way using (displacy) from spacy
+![](https://github.com/JakubTabor/Language_model_Pipeline/blob/main/Images/displacy_doc.png)
 * To do this i use function **(render on my doc and i choose style ent)**
 * It gonna mark the most important informations, make them visible
 * And nice describtion **(displacy.render(doc, style = "ent"))**
