@@ -46,4 +46,5 @@
 ![](https://github.com/JakubTabor/Language_model_Pipeline/blob/main/Images/text2.png)
 * Then I start for loop on my text with condition **(that if word have label ORG)**
 * It will fill out my list and also print out the names of the companies and their numbers
+![](https://github.com/JakubTabor/Language_model_Pipeline/blob/main/Images/company_finder.png)
 
