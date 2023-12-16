@@ -1,1 +1,2 @@
+# ![](https://github.com/JakubTabor/Language_model_Pipeline/blob/main/spacy_word_embeddings_excercise.ipynb)
 # First i gonna preprocess text which is in json format, then train different model with it and finally make measurement and visualize results
