@@ -1,3 +1,4 @@
 # [Example 2: word embeddings in spacy](https://github.com/JakubTabor/Language_model_Pipeline/blob/main/spacy_word_embeddings_excercise.ipynb)
 # First i gonna preprocess text which is in json format, then train different model with it and finally make measurement and visualize results
 * I start from checking if there is a class imbalance, but we have perfect class balance
+* Next i encode my classes into numbers, i gonna need fully numerical data
