@@ -6,4 +6,5 @@
 * Then i load large model from spacy trained on english words
 # And create function that will put the text into the doc, it is nlp object
 * Next it iterate through the tokens, removing **stop words and punctuation**
-* And it will fill the lits with the rest base tokens
+* And it will fill the list with the rest base tokens
+* I apply this function on my data and see that it simplified the text
