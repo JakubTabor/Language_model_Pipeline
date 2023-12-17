@@ -11,3 +11,4 @@
 # Next i will do vectorization of the text to make it full numerical
 * I create this vectors in separate column and it will be create from (preprocessed_text column)
 * After vectorization i can create (train and test sets) from the already numerical data
+* So the (x will be vector column with access to values) and (y will be the label column)
