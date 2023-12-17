@@ -9,3 +9,4 @@
 * And it will fill the list with the rest base tokens
 * I apply this function on my data and see that it simplified the text
 # Next i will do vectorization of the text to make it full numerical
+* I create this vectors in separate column and it will be create from (preprocessed_text column)
