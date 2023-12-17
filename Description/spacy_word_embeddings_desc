@@ -5,3 +5,4 @@
 * Next i encode my classes into numbers, i gonna need fully numerical data
 * Then i load large model from spacy trained on english words
 # And create function that will put the text into the doc, it is nlp object
+* Next it iterate through the text, removing **stop words and punctuation**
