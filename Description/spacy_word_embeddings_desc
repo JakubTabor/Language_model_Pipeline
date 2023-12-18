@@ -13,3 +13,4 @@
 * After vectorization i can create (train and test sets) from the already numerical data
 * So the (x will be vector column with access to values) and (y will be the label column)
 * Next using numpy i gonna stack first X_train and next X_test, they are now 2D data, as we can see the shapes has changed
+# Then i can train a couple of models and see the results
