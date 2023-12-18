@@ -20,3 +20,4 @@
 * And i train this model with scaled data and i can see that the score is pretty good
 * I get average accuracy 0.83 and for f1-score (for 1 and 2 class are 0.81 and 0.81)
 # Another model will be KNeighborsClassifier
+* After training the score i even higher than in previous model
