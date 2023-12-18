@@ -24,3 +24,4 @@
 * Average accuracy appears 0.86 and f1-score is (for 1 and 2 class are 0.86 and 0.87)
 # And the next model will be RandomForestClassifier
 * Score is very similar to the previous model 
+* It is the average score 0.87 and for f1-score is (for 1 and 2 class 0.86 and 0.87)
