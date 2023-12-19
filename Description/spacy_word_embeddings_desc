@@ -31,3 +31,4 @@
 ![](https://github.com/JakubTabor/Language_model_Pipeline/blob/main/Images_word_embed/RandomForest_report.png)
 * Score is very similar to the previous model 
 * It is the average score 0.87 and for f1-score is (for 1 and 2 class 0.86 and 0.87)
+# I also want to try GradientBoostingClassifier on this data
