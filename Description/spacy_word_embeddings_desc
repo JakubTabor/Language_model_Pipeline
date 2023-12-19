@@ -20,6 +20,7 @@
 ![](https://github.com/JakubTabor/Language_model_Pipeline/blob/main/Images_word_embed/decision_tree_report.png)
 * We get average accuracy 70% and f1-score for (1 and 2 class are 0.68 and 0.72)
 # Next i gonna try MultinomialNB, but first i need to scale my data into (0 - 1 range)
+![](https://github.com/JakubTabor/Language_model_Pipeline/blob/main/Images_word_embed/multinomialNB_report.png)
 * And i train this model with scaled data and i can see that the score is pretty good
 * I get average accuracy 0.83 and for f1-score (for 1 and 2 class are 0.81 and 0.81)
 # Another model will be KNeighborsClassifier
