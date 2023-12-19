@@ -14,6 +14,7 @@
 * After vectorization i can create (train and test sets) from the already numerical data
 * So the (x will be vector column with access to values) and (y will be the label column)
 * Next using numpy i gonna stack first X_train and next X_test, they are now 2D data, as we can see the shapes has changed
+![](https://github.com/JakubTabor/Language_model_Pipeline/blob/main/Images_word_embed/shapes.png)
 # Then i can train a couple of models and see the results
 * I start with DecisionTreeClassifier, score is not so good
 * We get average accuracy 70% and f1-score for (1 and 2 class are 0.68 and 0.72)
