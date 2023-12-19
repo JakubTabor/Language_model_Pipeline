@@ -24,6 +24,7 @@
 * And i train this model with scaled data and i can see that the score is pretty good
 * I get average accuracy 0.83 and for f1-score (for 1 and 2 class are 0.81 and 0.81)
 # Another model will be KNeighborsClassifier
+![](https://github.com/JakubTabor/Language_model_Pipeline/blob/main/Images_word_embed/KNeighborsClassifier_report.png)
 * After training the score i even higher than in previous model
 * Average accuracy appears 0.86 and f1-score is (for 1 and 2 class are 0.86 and 0.87)
 # And the next model will be RandomForestClassifier
