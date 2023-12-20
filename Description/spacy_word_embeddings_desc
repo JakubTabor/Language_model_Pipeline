@@ -35,3 +35,4 @@
 * And i train the classifier with this data
 * I reach the best accuracy at this point, its average accuracy 0.89 and f1-score (for 1 and 2 class 0.89 and 0.90) 
 ![](https://github.com/JakubTabor/Language_model_Pipeline/blob/main/Images_word_embed/GradientBoosting_reprot.png)
+# I also prepare confusion_matrix for the best classifier
