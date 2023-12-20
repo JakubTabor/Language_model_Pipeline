@@ -48,7 +48,7 @@
 * It will fill out my list and also print out the names of the companies and their numbers
 ![](https://github.com/JakubTabor/Language_model_Pipeline/blob/main/Images/company_finder.png)
 
-# []
+# [Example 2: Word embedding](https://github.com/JakubTabor/Language_model_Pipeline/blob/main/spacy_word_embeddings_excercise.ipynb)
 # [Example 2: word embeddings in spacy](https://github.com/JakubTabor/Language_model_Pipeline/blob/main/spacy_word_embeddings_excercise.ipynb)
 # First i gonna preprocess text which is in json format, then train different model with it and finally make measurement and visualize results
 # This will be preprocessing phase
