@@ -72,7 +72,9 @@
 ![](https://github.com/JakubTabor/Language_model_Pipeline/blob/main/Images_word_embed/shapes.png)
 # Then i can train a couple of models and see the results
 * I start with DecisionTreeClassifier, score is not so good
+
 ![](https://github.com/JakubTabor/Language_model_Pipeline/blob/main/Images_word_embed/decision_tree_report.png)
+
 * We get average accuracy 70% and f1-score for (1 and 2 class are 0.68 and 0.72)
 # Next i gonna try MultinomialNB, but first i need to scale my data into (0 - 1 range)
 ![](https://github.com/JakubTabor/Language_model_Pipeline/blob/main/Images_word_embed/multinomialNB_report.png)
