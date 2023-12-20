@@ -48,3 +48,43 @@
 * It will fill out my list and also print out the names of the companies and their numbers
 ![](https://github.com/JakubTabor/Language_model_Pipeline/blob/main/Images/company_finder.png)
 
+# []
+# [Example 2: word embeddings in spacy](https://github.com/JakubTabor/Language_model_Pipeline/blob/main/spacy_word_embeddings_excercise.ipynb)
+# First i gonna preprocess text which is in json format, then train different model with it and finally make measurement and visualize results
+# This will be preprocessing phase
+* I start from checking if there is a class imbalance, but we have perfect class balance
+![](https://github.com/JakubTabor/Language_model_Pipeline/blob/main/Images_word_embed/class_balance.png)
+* Next i encode my classes into numbers, i gonna need fully numerical data
+* Then i load large model from spacy trained on english words
+# And create function that will put the text into the doc, it is nlp object
+* Next it iterate through the tokens, removing **stop words and punctuation**
+* And it will fill the list with the rest base tokens
+* I apply this function on my data and see that it simplified the text
+# Next i will do vectorization of the text to make it full numerical
+* I create this vectors in separate column and it will be create from (preprocessed_text column)
+* After vectorization i can create (train and test sets) from the already numerical data
+* So the (x will be vector column with access to values) and (y will be the label column)
+* Next using numpy i gonna stack first X_train and next X_test, they are now 2D data, as we can see the shapes has changed
+![](https://github.com/JakubTabor/Language_model_Pipeline/blob/main/Images_word_embed/shapes.png)
+# Then i can train a couple of models and see the results
+* I start with DecisionTreeClassifier, score is not so good
+![](https://github.com/JakubTabor/Language_model_Pipeline/blob/main/Images_word_embed/decision_tree_report.png)
+* We get average accuracy 70% and f1-score for (1 and 2 class are 0.68 and 0.72)
+# Next i gonna try MultinomialNB, but first i need to scale my data into (0 - 1 range)
+![](https://github.com/JakubTabor/Language_model_Pipeline/blob/main/Images_word_embed/multinomialNB_report.png)
+* And i train this model with scaled data and i can see that the score is pretty good
+* I get average accuracy 0.83 and for f1-score (for 1 and 2 class are 0.81 and 0.81)
+# Another model will be KNeighborsClassifier
+![](https://github.com/JakubTabor/Language_model_Pipeline/blob/main/Images_word_embed/KNeighborsClassifier_report.png)
+* After training the score i even higher than in previous model
+* Average accuracy appears 0.86 and f1-score is (for 1 and 2 class are 0.86 and 0.87)
+# And the next model will be RandomForestClassifier
+![](https://github.com/JakubTabor/Language_model_Pipeline/blob/main/Images_word_embed/RandomForest_report.png)
+* Score is very similar to the previous model 
+* It is the average score 0.87 and for f1-score is (for 1 and 2 class 0.86 and 0.87)
+# I also want to try GradientBoostingClassifier on this data
+* And i train the classifier with this data
+* I reach the best accuracy at this point, its average accuracy 0.89 and f1-score (for 1 and 2 class 0.89 and 0.90) 
+![](https://github.com/JakubTabor/Language_model_Pipeline/blob/main/Images_word_embed/GradientBoosting_reprot.png)
+# I also prepare confusion_matrix for the best classifier
+
