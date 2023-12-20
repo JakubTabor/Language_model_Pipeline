@@ -57,6 +57,7 @@
 * I start from checking if there is a class imbalance, but we have perfect class balance
 
 ![](https://github.com/JakubTabor/Language_model_Pipeline/blob/main/Images_word_embed/class_balance.png)
+
 * Next i encode my classes into numbers, i gonna need fully numerical data
 * Then i load large model from spacy trained on english words
 # And create function that will put the text into the doc, it is nlp object
