@@ -55,6 +55,7 @@
 # First i gonna preprocess text which is in json format, then train different model with it and finally make measurement and visualize results
 # This will be preprocessing phase
 * I start from checking if there is a class imbalance, but we have perfect class balance
+
 ![](https://github.com/JakubTabor/Language_model_Pipeline/blob/main/Images_word_embed/class_balance.png)
 * Next i encode my classes into numbers, i gonna need fully numerical data
 * Then i load large model from spacy trained on english words
