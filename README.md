@@ -9,3 +9,5 @@
 
 ![](https://github.com/JakubTabor/Language_model_Pipeline/blob/main/Images/text1.png)
 ![](https://github.com/JakubTabor/Language_model_Pipeline/blob/main/Images/proper_nouns.png)
+
+# [Example 2: Word embeddings in spacy](https://github.com/JakubTabor/Language_model_Pipeline/blob/main/spacy_word_embeddings_excercise.ipynb)
