@@ -6,5 +6,6 @@
 * Next i check if it woark in different languages (Epanish)
 # And also i put text that contain (names and nouns)
 * Then i write function that extract this information from the text and count number of them
+
 ![](https://github.com/JakubTabor/Language_model_Pipeline/blob/main/Images/text1.png)
 ![](https://github.com/JakubTabor/Language_model_Pipeline/blob/main/Images/proper_nouns.png)
