@@ -2,3 +2,4 @@
 # I use spacy to first tokenize and then describe each part of token
 * I also put full phrases that contain different part of speech (LOC, MONEY, GPE, DATE...)
 * Next i check if it woark in different languages (Epanish)
+# And also i put text that contain (names and nouns)
