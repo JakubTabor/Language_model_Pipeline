@@ -3,3 +3,4 @@
 * I also put full phrases that contain different part of speech (LOC, MONEY, GPE, DATE...)
 * Next i check if it woark in different languages (Epanish)
 # And also i put text that contain (names and nouns)
+* Then i write function that extract this information from the text and count number of them
