@@ -12,3 +12,4 @@
 
 # [Example 2: Word embeddings in spacy](https://github.com/JakubTabor/Language_model_Pipeline/blob/main/spacy_word_embeddings_excercise.ipynb)
 # I use pure python to first tokenize and then convert text and classes into numerical form
+* Text is first preprocess, it mean that it change to simplified version
