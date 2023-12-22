@@ -17,3 +17,4 @@
 * I **convert train and test sets into two-dimensional**
 
 ![](https://github.com/JakubTabor/Language_model_Pipeline/blob/main/Images_word_embed/shapes.png)
+# Then i train couple model with this data and check their performance
