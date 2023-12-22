@@ -15,4 +15,5 @@
 * Text is first preprocess, it mean that it change to simplified version
 * Then i change this text into vector form and also scale it into range 0-1
 * I **convert train and test sets into two-dimensional**
+
 ![](https://github.com/JakubTabor/Language_model_Pipeline/blob/main/Images_word_embed/shapes.png)
