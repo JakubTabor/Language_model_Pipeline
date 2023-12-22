@@ -19,3 +19,4 @@
 ![](https://github.com/JakubTabor/Language_model_Pipeline/blob/main/Images_word_embed/shapes.png)
 # Then i train couple model with this data and check their performance
 * The best model is GradientBoostingClassifier
+* I reach with it average accuracy 0.89 and f1-score 0.89 - 0.90
