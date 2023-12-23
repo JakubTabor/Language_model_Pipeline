@@ -1,4 +1,5 @@
 # [Example 3: FastText text classification](https://github.com/JakubTabor/Language_model_Pipeline/blob/main/FastText_Text_Classification.ipynb)
 # In this example i gonna use Ecommerce dataset to classify products
 * I start from preprocessing, so i droping duplicated rows, simplified the labels and make it more visible 
-* Then i create function that use regular expressions to clean text from signs make the lower cases and make the text clear and readable
+* Then i create function that use regular expressions to clean text from signs
+* Make the lower cases and make the text clear and readable
