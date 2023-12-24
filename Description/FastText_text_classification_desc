@@ -8,3 +8,4 @@
 * And i convert it into a format that is proper for the fasttext model
 * Then i train and test the model, score that i achieve is high
 # Next i put some phrases into the model for predictions
+* From the descriptions of predict it return the label of product and certainty score
