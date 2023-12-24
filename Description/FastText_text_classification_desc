@@ -5,3 +5,4 @@
 * Make the lower cases and make the text clear and readable
 * Then i take the merge column with (label and description of the product) and use on it preprocess function
 # Now when my text is preprocess and clear i can create train and test sets
+* And i convert it into a format that is proper for the fasttext model
