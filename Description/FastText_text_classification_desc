@@ -9,3 +9,4 @@
 * Then i train and test the model, score that i achieve is high
 # Next i put some phrases into the model for predictions
 * From the descriptions of predict it return the label of product and certainty score
+* All predictions are correct and certainty score is high, so the model is well behaved and very certain
