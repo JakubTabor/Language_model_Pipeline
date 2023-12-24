@@ -10,3 +10,4 @@
 # Next i put some phrases into the model for predictions
 * From the descriptions of predict it return the label of product and certainty score
 * All predictions are correct and certainty score is high, so the model is well behaved and very certain
+* I also call my model to return me the most similar words to given word
