@@ -9,6 +9,7 @@
 # Now when my text is preprocess and clear i can create train and test sets
 * And i convert it into a format that is proper for the fasttext model
 ![](https://github.com/JakubTabor/Language_model_Pipeline/blob/main/Images_fastText_classification/train_test_to_csv.png)
+![](https://github.com/JakubTabor/Language_model_Pipeline/blob/main/Images_fastText_classification/label_description.png)
 * Then i train and test the model, score that i achieve is high
 # Next i put some phrases into the model for predictions
 * From the descriptions of predict it return the label of product and certainty score
