@@ -2,6 +2,7 @@
 # In this example i gonna use Ecommerce dataset to classify products
 * I start from preprocessing, so i droping duplicated rows, simplified the labels and make it more visible 
 * Then i create function that use regular expressions to clean text from signs
+![](https://github.com/JakubTabor/Language_model_Pipeline/blob/main/Images_fastText_classification/preprocess_function.png)
 * Make the lower cases and make the text clear and readable
 * Then i take the merge column with (label and description of the product) and use on it preprocess function
 # Now when my text is preprocess and clear i can create train and test sets
