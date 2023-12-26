@@ -26,3 +26,4 @@
 
 # [Example 3: FastText text classification](https://github.com/JakubTabor/Language_model_Pipeline/blob/main/FastText_Text_Classification.ipynb)
 # I use FastText model for text classification
+* First i convert description of product into proper form for the FastText model
