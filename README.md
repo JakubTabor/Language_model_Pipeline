@@ -23,3 +23,5 @@
 * I reach with it average accuracy 0.89 and f1-score 0.89 - 0.90
 
 ![](https://github.com/JakubTabor/Language_model_Pipeline/blob/main/Images_word_embed/GradientBoosting_reprot.png)
+
+# [Example 3: FastText text classification](https://github.com/JakubTabor/Language_model_Pipeline/blob/main/FastText_Text_Classification.ipynb)
