@@ -95,3 +95,29 @@
 # I also prepare confusion_matrix for the best classifier
 * And plot it in seaborn, the diagonal is true prediction and rest is false prediction
 
+#
+#
+#
+# [Example 3: ]()
+# [Example 3: FastText text classification](https://github.com/JakubTabor/Language_model_Pipeline/blob/main/FastText_Text_Classification.ipynb)
+# In this example i gonna use Ecommerce dataset to classify products
+* I start from preprocessing, so i droping duplicated rows, simplified the labels and make it more visible 
+* Then i create function that use regular expressions to clean text from signs
+![](https://github.com/JakubTabor/Language_model_Pipeline/blob/main/Images_fastText_classification/preprocess_function.png)
+![](https://github.com/JakubTabor/Language_model_Pipeline/blob/main/Images_fastText_classification/preprocessed_example.png)
+* Make the lower cases and make the text clear and readable
+* Then i take the merge column with (label and description of the product) and use on it preprocess function
+# Now when my text is preprocess and clear i can create train and test sets
+* And i convert it into a format that is proper for the fasttext model
+![](https://github.com/JakubTabor/Language_model_Pipeline/blob/main/Images_fastText_classification/train_test_to_csv.png)
+![](https://github.com/JakubTabor/Language_model_Pipeline/blob/main/Images_fastText_classification/label_description.png)
+* Then i train and test the model, score that i achieve is high
+# Next i put some phrases into the model for predictions
+* From the descriptions of predict it return the label of product and certainty score
+![](https://github.com/JakubTabor/Language_model_Pipeline/blob/main/Images_fastText_classification/model_prediction.png)
+![](https://github.com/JakubTabor/Language_model_Pipeline/blob/main/Images_fastText_classification/model_prediction2.png)
+* All predictions are correct and certainty score is high, so the model is well behaved and very certain
+* I also call my model to return me the most similar words to given word
+* It return words from the patterns that it learned with certainty score
+![](https://github.com/JakubTabor/Language_model_Pipeline/blob/main/Images_fastText_classification/model_neighbors.png)
+
