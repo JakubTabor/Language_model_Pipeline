@@ -98,7 +98,7 @@
 #
 #
 #
-# [Example 3: FastText text classification]()
+# [Example 3: FastText text classification](https://github.com/JakubTabor/Language_model_Pipeline/blob/main/FastText_Text_Classification.ipynb)
 # [Example 3: FastText text classification](https://github.com/JakubTabor/Language_model_Pipeline/blob/main/FastText_Text_Classification.ipynb)
 # In this example i gonna use Ecommerce dataset to classify products
 * I start from preprocessing, so i droping duplicated rows, simplified the labels and make it more visible 
