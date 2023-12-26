@@ -121,5 +121,6 @@
 * All predictions are correct and certainty score is high, so the model is well behaved and very certain
 * I also call my model to return me the most similar words to given word
 * It return words from the patterns that it learned with certainty score
+
 ![](https://github.com/JakubTabor/Language_model_Pipeline/blob/main/Images_fastText_classification/model_neighbors.png)
 
