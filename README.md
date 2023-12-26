@@ -28,4 +28,7 @@
 # I use FastText model for text classification
 * First i convert description of product into proper form for the FastText model
 * I create function that remove signs, white spaces and make the lower cases
+
 ![](https://github.com/JakubTabor/Language_model_Pipeline/blob/main/Images_fastText_classification/preprocess_function.png)
+
+# Then i train FastText model and reach high accuracy
