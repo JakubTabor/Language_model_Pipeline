@@ -33,3 +33,5 @@
 
 # Then i train FastText model and reach high accuracy
 * Now i can use my model to check predictions and functionalities
+
+![](https://github.com/JakubTabor/Language_model_Pipeline/blob/main/Images_fastText_classification/model_prediction.png)
