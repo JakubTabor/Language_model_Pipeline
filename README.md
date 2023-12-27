@@ -34,6 +34,7 @@
 # Then i train FastText model and reach high accuracy
 * Now i can use my model to check predictions and functionalities
 * I put a text with description of a product to my model
+* And it return me label of a product and certainty score
 ![](https://github.com/JakubTabor/Language_model_Pipeline/blob/main/Images_fastText_classification/model_prediction.png)
 ![](https://github.com/JakubTabor/Language_model_Pipeline/blob/main/Images_fastText_classification/model_prediction2.png)
 
