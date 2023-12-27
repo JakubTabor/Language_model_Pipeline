@@ -40,5 +40,6 @@
 
 # And then i use functionality (get_nearest_neighbors) on a product name
 * It return me most similar words to give word with certainty score
-* All words are taken by training process, so they seems to be unrelated 
+* All words are taken by training process, so they seems to be unrelated
+* Because its relation between words build by model and in this way it's correct
 ![](https://github.com/JakubTabor/Language_model_Pipeline/blob/main/Images_fastText_classification/model_neighbors.png)
