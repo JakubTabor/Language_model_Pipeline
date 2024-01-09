@@ -6,4 +6,4 @@
 ![](https://github.com/JakubTabor/Language_model_Pipeline/blob/main/Images_Stop_Words/token_stop.png)
 ![](https://github.com/JakubTabor/Language_model_Pipeline/blob/main/Images_Stop_Words/tokens.png)
 
-# 
+# Next i create preprocess function, which take given text and remove all stop words
