@@ -2,3 +2,5 @@
 * First i load **small model in english, which i assign to nlp** and put a **text into nlp object, i assign it doc**
 * Then i **call functionality is_stop, it means that if token is stop word**, then do something   
 * And we print this stop words tokens, **they don't add any new context to the meaning of given text**
+
+![](https://github.com/JakubTabor/Language_model_Pipeline/blob/main/Images_Stop_Words/tokens.png)
