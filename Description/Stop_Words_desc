@@ -10,3 +10,4 @@
 * In list comprehension i define that **if token from given text is not stop word and punctuation**, it says that we don't want this type of tokens
 
 ![](https://github.com/JakubTabor/Language_model_Pipeline/blob/main/Images_Stop_Words/preprocess_function.png)
+![](https://github.com/JakubTabor/Language_model_Pipeline/blob/main/Images_Stop_Words/function_text.png)
