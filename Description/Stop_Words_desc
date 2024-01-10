@@ -20,6 +20,7 @@
 * Number of words are changed from **5504 to 4217**
 
 # Next i gonna create function which count number of stop words in the given text and return their percentage
+* I start from setting 2 variables for counts (total and percentage) to zero 
 
 ![](https://github.com/JakubTabor/Language_model_Pipeline/blob/main/Images_Stop_Words/stop_words_function.png)
 ![](https://github.com/JakubTabor/Language_model_Pipeline/blob/main/Images_Stop_Words/num_of_stop_words.png)
