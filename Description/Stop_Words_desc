@@ -18,3 +18,5 @@
 # I load dataset, which contain informations and i take only this with topic, rest i ignore
 * And i **apply my preprocess function on 4 row, column contents**
 * Number of words are changed from **5504 to 4217**
+
+# Next i gonna create function which count number of stop words in the given text and return their percentage
