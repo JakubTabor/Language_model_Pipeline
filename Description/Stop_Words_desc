@@ -38,3 +38,4 @@
 
 # Next i create function that will recognise word that appear the most
 * First i create list for any other tokens
+* And make for loop where i specify that if token is stopword or punctuation it will be ignored
