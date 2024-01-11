@@ -29,3 +29,4 @@
 ![](https://github.com/JakubTabor/Language_model_Pipeline/blob/main/Images_Stop_Words/num_of_stop_words.png)
 
 # Then i create function that will take a text and remove stopwords, i check if it can recognise negative and positive context
+* So i define that it return me token that are not stopwords and join all remaining text 
