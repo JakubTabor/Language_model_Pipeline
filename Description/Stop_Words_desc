@@ -37,3 +37,4 @@
 ![](https://github.com/JakubTabor/Language_model_Pipeline/blob/main/Images_Stop_Words/num_of_stop_words.png)
 
 # Next i create function that will recognise word that appear the most
+* First i create list for any other tokens
