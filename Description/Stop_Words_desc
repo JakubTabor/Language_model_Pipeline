@@ -31,3 +31,4 @@
 # Then i **create function that will take a text and remove stopwords, i check if it can recognise negative and positive context**
 * So i define that it **return me token that are not stopwords and join all remaining text**
 * But i must specify that in this context **word 'not' is not a stopword**
+* And we se that after specification it is able to recognise this 2 contexts 
