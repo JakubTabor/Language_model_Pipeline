@@ -42,4 +42,5 @@
 * And any other tokens will just fill the list
 * Next i create dictionary for the token with the most occurence
 * I start a for loop for the previous list of tokens and **also exclude from text ('\n' - new line, and ' ' - space)**
-* And i specify, that if token with most occurence is not already in the dict. it will appear (frequency_tokens[token] = 1)
+* And i specify, that if token with most occurence is not already in the dict. it will appear, frequency_tokens[token] = 1
+* Otherwise it will just add, frequency_tokens[token] += 1
