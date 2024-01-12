@@ -127,7 +127,7 @@
 #
 #
 #
-# []()
+# [Example 4: Stop words](https://github.com/JakubTabor/Language_model_Pipeline/blob/main/Stop_Words.ipynb)
 # 
 # In this exercise i gonna be working with stop words 
 * First i load **small model in english, which i assign to nlp** and put a **text into nlp object, i assign it doc**
