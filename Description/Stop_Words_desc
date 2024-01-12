@@ -45,3 +45,5 @@
 * And i specify, that if token with most occurence is not already in the dict. it will appear, frequency_tokens[token] = 1
 * Otherwise it will just add, frequency_tokens[token] += 1
 * And then after the loop i assign that the token with most occurrence by taking max from our dictionary
+
+![](https://github.com/JakubTabor/Language_model_Pipeline/blob/main/Images_Stop_Words/max_frequency_token.png)
