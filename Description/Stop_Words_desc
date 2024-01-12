@@ -41,3 +41,4 @@
 * And make for loop where i specify that if token is stopword or punctuation it will be ignored
 * And any other tokens will just fill the list
 * Next i create dictionary for the token with the most occurence
+* I start a for loop for the previous list of tokens and **also exclude from text ('\n' - new line, and ' ' - space)**
