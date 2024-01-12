@@ -44,3 +44,4 @@
 * I start a for loop for the previous list of tokens and **also exclude from text ('\n' - new line, and ' ' - space)**
 * And i specify, that if token with most occurence is not already in the dict. it will appear, frequency_tokens[token] = 1
 * Otherwise it will just add, frequency_tokens[token] += 1
+* And then after the loop i assign that the token with most occurrence by taking max from our dictionary
