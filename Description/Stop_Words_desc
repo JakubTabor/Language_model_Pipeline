@@ -37,5 +37,6 @@
 ![](https://github.com/JakubTabor/Language_model_Pipeline/blob/main/Images_Stop_Words/num_of_stop_words.png)
 
 # Next i create function that will recognise word that appear the most
-* First i create list for any other tokens
+* First i create list for tokens, which are not stop or punctuation 
 * And make for loop where i specify that if token is stopword or punctuation it will be ignored
+* And any other tokens will just fill the list
