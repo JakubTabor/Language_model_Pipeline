@@ -47,3 +47,4 @@
 * And then after the loop i assign that the token with most occurrence by taking max from our dictionary
 
 ![](https://github.com/JakubTabor/Language_model_Pipeline/blob/main/Images_Stop_Words/max_frequency_token.png)
+![](https://github.com/JakubTabor/Language_model_Pipeline/blob/main/Images_Stop_Words/max_frequency_word.png)
