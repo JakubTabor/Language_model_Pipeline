@@ -10,6 +10,9 @@
 ![](https://github.com/JakubTabor/Language_model_Pipeline/blob/main/Images/text1.png)
 ![](https://github.com/JakubTabor/Language_model_Pipeline/blob/main/Images/proper_nouns.png)
 
+#
+#
+#
 # [Example 2: Word embeddings in spacy](https://github.com/JakubTabor/Language_model_Pipeline/blob/main/spacy_word_embeddings_excercise.ipynb)
 # I use pure python to first tokenize and then convert text and classes into numerical form
 * Text is first preprocess, it mean that it change to simplified version
@@ -24,6 +27,9 @@
 
 ![](https://github.com/JakubTabor/Language_model_Pipeline/blob/main/Images_word_embed/GradientBoosting_reprot.png)
 
+#
+#
+#
 # [Example 3: FastText text classification](https://github.com/JakubTabor/Language_model_Pipeline/blob/main/FastText_Text_Classification.ipynb)
 # I use FastText model for text classification
 * First i convert description of product into proper form for the FastText model
