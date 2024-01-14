@@ -6,3 +6,5 @@
 ![](https://github.com/JakubTabor/Language_model_Pipeline/blob/main/Images_BERT_model/imbalance.png)
 ![](https://github.com/JakubTabor/Language_model_Pipeline/blob/main/Images_BERT_model/concatenation.png)
 ![](https://github.com/JakubTabor/Language_model_Pipeline/blob/main/Images_BERT_model/balance.png)
+
+# And of course i convert ham and spam column into numerical form, for ham - 0, spam - 1
