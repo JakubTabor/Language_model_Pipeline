@@ -13,3 +13,4 @@
 * And i download 2 BERT modules for preprocessing and encoding
 
 # Next i create function in which i use these 2 modules, it will help me first to get preprocessed text and next to get embedding vector
+* First i put preprocess module and sepecify a place for sentence, it will preprocess given sentence
