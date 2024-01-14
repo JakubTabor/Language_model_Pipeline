@@ -1,6 +1,7 @@
 #[Example 5: BERT text classification](https://github.com/JakubTabor/Language_model_Pipeline/blob/main/Text_Classification_BERT.ipynb)
 # In this exercise i gonna be creating BERT model for text classification
 * First i can see, that i have class imbalance in my dataset, ham category is much bigger
+* I gonna make them equal to the lower class, so i take only finepart of ham emails and that concatenate both classes
 
 ![](https://github.com/JakubTabor/Language_model_Pipeline/blob/main/Images_BERT_model/imbalance.png)
 ![](https://github.com/JakubTabor/Language_model_Pipeline/blob/main/Images_BERT_model/balance.png)
