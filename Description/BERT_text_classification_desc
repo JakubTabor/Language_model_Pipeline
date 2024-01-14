@@ -8,3 +8,5 @@
 ![](https://github.com/JakubTabor/Language_model_Pipeline/blob/main/Images_BERT_model/balance.png)
 
 # And of course i convert ham and spam column into numerical form, for ham - 0, spam - 1
+
+# Then i can create train and test sets, specifying that the number of sample must be equal for y (stratify = df balanced['spam']))
