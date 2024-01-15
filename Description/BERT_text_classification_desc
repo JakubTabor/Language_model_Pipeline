@@ -18,6 +18,7 @@
 * As an output we get these probability vectors from -1 to 1
 
 ![](https://github.com/JakubTabor/Language_model_Pipeline/blob/main/Images_BERT_model/BERT_uncased.png)
+![](https://github.com/JakubTabor/Language_model_Pipeline/blob/main/Images_BERT_model/sentence_embedding_function.png)
 
 # Now i gonna put inside my function some phrases and check their cosine similarity
 * It measure similarity between two non-zero vectors, so we have all we want, we just need to supply vectors indexes
