@@ -15,3 +15,4 @@
 # Next i create function in which i use these 2 modules, it will help me first to get preprocessed text and next to get embedding vector
 * First i put preprocess module and sepecify a place for sentence, it will preprocess given sentence
 * Then i apply encoder on preprocessed text and we can call the model and put sentences
+* As an output we get these probability vectors from -1 to 1
