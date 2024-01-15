@@ -190,5 +190,21 @@
 
 ![](https://github.com/JakubTabor/Language_model_Pipeline/blob/main/Images_BERT_model/imbalance.png)
 ![](https://github.com/JakubTabor/Language_model_Pipeline/blob/main/Images_BERT_model/concatenation.png)
-
 ![](https://github.com/JakubTabor/Language_model_Pipeline/blob/main/Images_BERT_model/balance.png)
+
+# And of course i convert ham and spam column into numerical form, for ham - 0, spam - 1
+
+# Then i can create train and test sets, specifying that the number of sample must be equal for y (stratify = df balanced['spam']))
+* And i download 2 BERT modules for preprocessing and encoding
+
+# Next i create function in which i use these 2 modules, it will help me first to get preprocessed text and next to get embedding vector
+* First i put preprocess module and sepecify a place for sentence, it will preprocess given sentence
+* Then i apply encoder on preprocessed text and we can call the model and put sentences
+* As an output we get these probability vectors from -1 to 1
+
+![](https://github.com/JakubTabor/Language_model_Pipeline/blob/main/Images_BERT_model/BERT_uncased.png)
+![](https://github.com/JakubTabor/Language_model_Pipeline/blob/main/Images_BERT_model/sentence_embedding_function.png)
+
+# Now i gonna put inside my function some phrases and check their cosine similarity
+* It measure similarity between two non-zero vectors, so we have all we want, we just need to supply vectors indexes
+* We can see that similarity between **(banana and grapes is higher - 0.99)** and **(between banana and jeff bezos is lower - 0.84)**, so everything works fine
