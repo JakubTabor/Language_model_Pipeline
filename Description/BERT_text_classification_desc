@@ -18,3 +18,4 @@
 * As an output we get these probability vectors from -1 to 1
 
 # Now i gonna put inside my function some phrases and check their cosine similarity
+* It measure similarity between two non-zero vectors, so we have all we want, we just need to supply vectors indexes
