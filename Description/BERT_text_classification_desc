@@ -16,3 +16,5 @@
 * First i put preprocess module and sepecify a place for sentence, it will preprocess given sentence
 * Then i apply encoder on preprocessed text and we can call the model and put sentences
 * As an output we get these probability vectors from -1 to 1
+
+# Now i gonna put inside my function some phrases and check their cosine similarity
