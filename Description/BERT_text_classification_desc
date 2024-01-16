@@ -32,3 +32,4 @@
 ![](https://github.com/JakubTabor/Language_model_Pipeline/blob/main/Images_BERT_model/cosine_similarity2.png)
 
 # Now i gonna create neural network using BERT combined with keras layers
+* We start from passing input layer, shape will be figure out manually, data type is string, so we are gonna pass as an input some text
