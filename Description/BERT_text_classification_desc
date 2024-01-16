@@ -24,7 +24,7 @@
 # Now i gonna put inside my function some phrases and check their cosine similarity
 * It measure similarity between two non-zero vectors, so we have all we want, we just need to supply vectors indexes
 * We can see that similarity between **(banana and grapes is higher - 0.99)** and **(between banana and jeff bezos is lower - 0.84)**, so everything works fine
-* We can see that certain groups of words are arranged close to the other
+* We can see that certain groups of words are arranged close to the other, banana and grapes re much likely to appear in same text than banana and Jeff Bezos
 * But sometimes unrelated words appear in same text on which model is trained, thats why similarity is much higher than we expect
 
 ![](https://github.com/JakubTabor/Language_model_Pipeline/blob/main/Images_BERT_model/vectors_from_words.png)
