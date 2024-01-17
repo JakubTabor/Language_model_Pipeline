@@ -44,3 +44,5 @@
 * I save it as a model, which take text input for preprocessing, its first part
 * And in the next part is the vector is given to remaining keras part of neural net
 
+![](https://github.com/JakubTabor/Language_model_Pipeline/blob/main/Images_BERT_model/model_metrics.png)
+
