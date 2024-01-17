@@ -35,3 +35,5 @@
 * We start from passing input layer, shape will be figure out manually, data type is string, so we are gonna pass as an input some text
 * Then we pass our BERT layer which preprocess these given text
 * And net as previous the layer for vectorization
+
+# Now after BERT layer i put some normal layers
