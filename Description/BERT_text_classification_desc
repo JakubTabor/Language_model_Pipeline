@@ -38,3 +38,4 @@
 
 # Now after BERT layer i put some normal layers
 * One is dropout layer, which just drop 0.1 of give neurons, its for purpose of not overfit the model
+* And next is output layer, with normal sigmoid activation
