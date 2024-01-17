@@ -36,8 +36,11 @@
 * Then we pass our BERT layer which preprocess these given text
 * And net as previous the layer for vectorization
 
+![](https://github.com/JakubTabor/Language_model_Pipeline/blob/main/Images_BERT_model/Model.png)
+
 # Now after BERT layer i put some normal layers
 * One is dropout layer, which just drop 0.1 of give neurons, its for purpose of not overfit the model
 * And next is output layer, with normal sigmoid activation
 * I save it as a model, which take text input for preprocessing, its first part
 * And in the next part is the vector is given to remaining keras part of neural net
+
