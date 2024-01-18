@@ -57,4 +57,5 @@
 ![](https://github.com/JakubTabor/Language_model_Pipeline/blob/main/Images_BERT_model/model_evaluation.png)
 
 # Next i can see how visually looks predictions of my model 
+* So i supply to the confusion_matrix true and predicted results
 
