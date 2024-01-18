@@ -45,6 +45,8 @@
 * And in the next part is the vector is given to remaining keras part of neural net
 * I call summary on my model to get all informations about it, i can see that number of parameters is (109,483,010), but only 769 are trainable  
 
+# Then i can pass all metrics, it will help me track my model progress during training
+
 
 ![](https://github.com/JakubTabor/Language_model_Pipeline/blob/main/Images_BERT_model/model_metrics.png)
 
