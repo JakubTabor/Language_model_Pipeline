@@ -58,4 +58,5 @@
 
 # Next i can see how visually looks predictions of my model 
 * So i supply to the confusion_matrix true and predicted results
+* And then use matplotlib to see on diagonal matrix all results
 
