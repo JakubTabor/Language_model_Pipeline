@@ -49,6 +49,8 @@
 * I pass also parameters to compile my model and save metrics
 * It will be adam and binary_crossentropy, these are the most popular parameters
 
+# Next i train my model with 10 epochs, which contain batches of examples 
+
 
 ![](https://github.com/JakubTabor/Language_model_Pipeline/blob/main/Images_BERT_model/model_metrics.png)
 
