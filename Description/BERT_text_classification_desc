@@ -47,6 +47,7 @@
 
 # Then i can pass all metrics, it will help me track my model progress during training
 * I pass also parameters to compile my model 
+* It will be adam and binary_crossentropy, these are the most popular parameters
 
 
 ![](https://github.com/JakubTabor/Language_model_Pipeline/blob/main/Images_BERT_model/model_metrics.png)
