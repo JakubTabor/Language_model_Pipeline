@@ -64,4 +64,5 @@
 
 # Now i gonna call classification_report on true and predicted class
 * I can see that f1-score for both classes is similar, so i don't have any imbalance and more it is very high 
+* So my model is very unlikely to make false predictions
 
