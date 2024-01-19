@@ -60,6 +60,7 @@
 * So i supply to the confusion_matrix true and predicted results
 * And then use matplotlib to see on diagonal matrix all results
 * We can see on plot that we have true class and true-false as well as in predicted class
+* 170 right and 17 true-false, then 165 right predicted and 22 false-predicted
 
 ![](https://github.com/JakubTabor/Language_model_Pipeline/blob/main/Images_BERT_model/confusion_matrix.png)
 
