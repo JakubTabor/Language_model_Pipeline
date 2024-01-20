@@ -213,6 +213,7 @@
 * But sometimes unrelated words appear in same text on which model is trained, thats why similarity is much higher than we expect
 
 ![](https://github.com/JakubTabor/Language_model_Pipeline/blob/main/Images_BERT_model/vectors_from_words.png)
+
 ![](https://github.com/JakubTabor/Language_model_Pipeline/blob/main/Images_BERT_model/cosine_similarity1.png)
 ![](https://github.com/JakubTabor/Language_model_Pipeline/blob/main/Images_BERT_model/cosine_similarity2.png)
 
