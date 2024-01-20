@@ -209,3 +209,64 @@
 # Now i gonna put inside my function some phrases and check their cosine similarity
 * It measure similarity between two non-zero vectors, so we have all we want, we just need to supply vectors indexes
 * We can see that similarity between **(banana and grapes is higher - 0.99)** and **(between banana and jeff bezos is lower - 0.84)**, so everything works fine
+* We can see that certain groups of words are arranged close to the other, banana and grapes re much likely to appear in same text than banana and Jeff Bezos
+* But sometimes unrelated words appear in same text on which model is trained, thats why similarity is much higher than we expect
+
+![](https://github.com/JakubTabor/Language_model_Pipeline/blob/main/Images_BERT_model/vectors_from_words.png)
+![](https://github.com/JakubTabor/Language_model_Pipeline/blob/main/Images_BERT_model/cosine_similarity1.png)
+![](https://github.com/JakubTabor/Language_model_Pipeline/blob/main/Images_BERT_model/cosine_similarity2.png)
+
+# Now i gonna create neural network using BERT combined with keras layers
+* We start from passing input layer, shape will be figure out manually, data type is string, so we are gonna pass as an input some text
+* Then we pass our BERT layer which preprocess these given text
+* And net as previous the layer for vectorization
+
+![](https://github.com/JakubTabor/Language_model_Pipeline/blob/main/Images_BERT_model/Model.png)
+
+# Now after BERT layer i put some normal layers
+* One is dropout layer, which just drop 0.1 of give neurons, its for purpose of not overfit the model
+* And next is output layer, with normal sigmoid activation
+* I save it as a model, which take text input for preprocessing, its first part
+* And in the next part is the vector is given to remaining keras part of neural net
+* I call summary on my model to get all informations about it, i can see that number of parameters is (109,483,010), but only 769 are trainable  
+
+# Then i can pass all metrics, it will help me track my model progress during training
+* I pass also parameters to compile my model and save metrics
+* It will be adam and binary_crossentropy, these are the most popular parameters
+
+# Next i train my model with 10 epochs, which contain batches of examples 
+* I can see loss decay during training and rest of parameters are rising
+* Then after evaluation i can see that metrics are very similar to training state
+
+![](https://github.com/JakubTabor/Language_model_Pipeline/blob/main/Images_BERT_model/model_metrics.png)
+![](https://github.com/JakubTabor/Language_model_Pipeline/blob/main/Images_BERT_model/model_evaluation.png)
+
+# Next i can see how visually looks predictions of my model 
+* So i supply to the confusion_matrix true and predicted results
+* And then use matplotlib to see on diagonal matrix all results
+* We can see on plot that we have true class and true-false as well as in predicted class
+* 170 right and 17 true-false, then 165 right predicted and 22 false-predicted
+
+![](https://github.com/JakubTabor/Language_model_Pipeline/blob/main/Images_BERT_model/confusion_matrix.png)
+
+# Now i gonna call classification_report on true and predicted class
+* I can see that f1-score for both classes is similar, so i don't have any imbalance and more it is very high 
+* So my model is very unlikely to make false predictions
+
+![](https://github.com/JakubTabor/Language_model_Pipeline/blob/main/Images_BERT_model/classification_report.png)
+
+# And then i gonna put some reviews and check if my model can predict to which class they belong
+* As we can see, first 3 are spam text and next 2 are likely to be true messages
+* And we see that we get on 3 first very high probability score and on other 2 very low probability
+
+![](https://github.com/JakubTabor/Language_model_Pipeline/blob/main/Images_BERT_model/reviews_%20for_prediction.png)
+![](https://github.com/JakubTabor/Language_model_Pipeline/blob/main/Images_BERT_model/predicted_reviews.png)
+
+# Next i can save my model for future development
+
+![](https://github.com/JakubTabor/Language_model_Pipeline/blob/main/Images_BERT_model/BERT_uncased.png)
+![](https://github.com/JakubTabor/Language_model_Pipeline/blob/main/Images_BERT_model/sentence_embedding_function.png)
+
+# Now i gonna put inside my function some phrases and check their cosine similarity
+* It measure similarity between two non-zero vectors, so we have all we want, we just need to supply vectors indexes
+* We can see that similarity between **(banana and grapes is higher - 0.99)** and **(between banana and jeff bezos is lower - 0.84)**, so everything works fine
