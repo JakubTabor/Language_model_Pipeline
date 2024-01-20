@@ -73,3 +73,5 @@
 # And then i gonna put some reviews and check if my model can predict to which class they belong
 * As we can see, first 3 are spam text and next 2 are likely to be true messages
 * And we see that we get on 3 first very high probability score and on other 2 very low probability
+
+![](https://github.com/JakubTabor/Language_model_Pipeline/blob/main/Images_BERT_model/reviews_%20for_prediction.png)
