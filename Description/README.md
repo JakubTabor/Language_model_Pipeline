@@ -239,7 +239,7 @@
 * I can see loss decay during training and rest of parameters are rising
 * Then after evaluation i can see that metrics are very similar to training state
 
-![](https://github.com/JakubTabor/Language_model_Pipeline/blob/main/Images_BERT_model/model_metrics.png)
+![]()
 ![](https://github.com/JakubTabor/Language_model_Pipeline/blob/main/Images_BERT_model/model_evaluation.png)
 
 # Next i can see how visually looks predictions of my model 
