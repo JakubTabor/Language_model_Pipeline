@@ -265,9 +265,3 @@
 
 # Next i can save my model for future development
 
-![](https://github.com/JakubTabor/Language_model_Pipeline/blob/main/Images_BERT_model/BERT_uncased.png)
-![](https://github.com/JakubTabor/Language_model_Pipeline/blob/main/Images_BERT_model/sentence_embedding_function.png)
-
-# Now i gonna put inside my function some phrases and check their cosine similarity
-* It measure similarity between two non-zero vectors, so we have all we want, we just need to supply vectors indexes
-* We can see that similarity between **(banana and grapes is higher - 0.99)** and **(between banana and jeff bezos is lower - 0.84)**, so everything works fine
